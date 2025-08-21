@@ -79,6 +79,7 @@ html {
 .dark-theme {
   --backgroundColor: var(--dark-mode-bg-color);
   --textColor: var(--dark-mode-text-color);
+  font-size: 1rem;
 }
 body {
   background: var(--backgroundColor);
