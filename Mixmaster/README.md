@@ -821,7 +821,7 @@ const Cocktail = () => {
             {validIngredients.map((item, index) => {
               return (
                 <span className="ing" key={item}>
-                  {item} {index < validIngredients.length - 1 ? "," : ""}
+                  {item} {index <span validIngredients.length - 1 ? "," : ""}
                 </span>
               );
             })}
