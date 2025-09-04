@@ -12,10 +12,8 @@ export const loader = async ({ params }) => {
 };
 const CockTail = () => {
   const { id, data } = useLoaderData();
-  // if (!data) return <h2>Something went wrong...</h2>;
   if (!data) return <Navigate to="/" />;
   const singleDrink = data.drinks[0];
-  console.log(singleDrink);
   const {
     strDrink: name,
     strDrinkThumb: image,
